@@ -1,13 +1,3 @@
-# Auto-Brakes-for-Cycles
-So I was thinking of making some project, had some cool ideas. Also started working on something, but one day I was getting back from somewhere and witnessed an accident. It got me thinking, if there was something that could be done about it. So, I decided to make an automatic brake. That will reduce the number of accidents even if the driver isn't attentive. So, I saterted doing my research. There were different types of brakes on numerous different types of vehicles. So, I needed to choose the easy one to start. BIKES!!!
-Yup, lesser wheels, easier to stop using brake. But, bikes had four types of brakes and cycles had three. So, I decided to work on mechanical disc brakes.
-I needed something that can pull the brake string whenever the bike/cycle gets too close to something. 
-Now, making something react with distance as input was ez. Got my ULTRASONIC DISTANCE SENSOR. 
-Now, as for the machanism to pull the string. Ummmmmm, it got me thinking hard. May be RACK AND PINION? or Lead Screw?
-But, none of them were available to me, so I tried a motor that'll roll in the string and lossen it. So, may be a Servo motor will do!!!
-
-So, I started on it and did this code for ARDUINO.
-
 ```C
 #include<Servo.h>
 int trig=2;
@@ -61,14 +51,3 @@ int dist()
   return distance;
 }
 ```
-
-
-Here comes the schematics for the Circuit.
-
-
-![PROJECT](https://user-images.githubusercontent.com/94229992/142219814-4d6736d6-9931-42fd-ac32-76c6db90b69f.png)
-
-
-Now, I've made the mechanism but never experimented it practically. So, some modification should be needed for that.
-
-~THANK YOU!!!
