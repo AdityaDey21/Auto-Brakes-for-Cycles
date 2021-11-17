@@ -8,6 +8,7 @@ But, none of them were available to me, so I tried a motor that'll roll in the s
 
 So, I started on it and did this code for ARDUINO.
 
+```C
 #include<Servo.h>
 int trig=2;
 int echo=4;
@@ -59,9 +60,14 @@ int dist()
   delay(50);
   return distance;
 }
+```
+
 
 Here comes the schematics for the Circuit.
+
+
 ![PROJECT](https://user-images.githubusercontent.com/94229992/142219814-4d6736d6-9931-42fd-ac32-76c6db90b69f.png)
+
 
 Now, I've made the mechanism but never experimented it practically. So, some modification should be needed for that.
 
